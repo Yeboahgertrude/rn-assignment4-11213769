@@ -1,0 +1,44 @@
+# Job Finder App
+
+This is a React Native app that allows users to login and view popular and featured job listings.
+
+## Features
+
+* Login screen with name and email input fields
+* Home screen that displays the user’s name and email
+* Popular and featured job listings displayed as cards
+* Each job card displays the job title, company, and location
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/job-finder-app.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the app: `npx react-native start` or `yarn react-native start`
+
+## Usage
+
+1. Open the app on a simulator or physical device
+2. Enter your name and email on the login screen
+3. Press the “Login” button to navigate to the home screen
+4. View the popular and featured job listings on the home screen
+
+## Components
+
+* `LoginScreen.js`: Handles user login and navigation to the home screen
+* `HomeScreen.js`: Displays the user’s name and email, as well as the popular and featured job listings
+* `JobCard.js`: A reusable component that displays a single job listing as a card
+
+## Styles
+
+The app uses a custom stylesheet to match the provided UI design. The stylesheet is located in `styles.js`.
+
+## Notes
+
+* This app uses React Native and JavaScript to build the user interface and logic.
+* The app does not persist user data or job listings; this is a simple demo app.
+* You can customize the app by modifying the components, styles, and data.
+
+## Screenshots
+
+![Screenshot Of Login Screen](assets/icon.png)
+![Screenshot Of Home Screen](assets/HomeScreenScreenshot.jpg)
